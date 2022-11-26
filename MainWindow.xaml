@@ -1,0 +1,30 @@
+<Window x:Class="FinalWeatherApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalWeatherApp"
+        mc:Ignorable="d"
+         Height="650" Width="995">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="509*"/>
+            <RowDefinition Height="110*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="269*"/>
+            <ColumnDefinition Width="329*"/>
+            <ColumnDefinition Width="329*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="D:\Kuliah\Pemrograman Lanjut\FinalWeatherApp\Images\Kotak Besar.png" Margin="-44,-30,-130,-4" Grid.ColumnSpan="4" Grid.RowSpan="2"/>
+        <Image Source="D:\Kuliah\Pemrograman Lanjut\FinalWeatherApp\Images\Kotak Kiri.png" Margin="-35,-30,10,-4" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Image Source="D:\Kuliah\Pemrograman Lanjut\FinalWeatherApp\Images\Group 6.png" Margin="32,-236,71,128" Grid.ColumnSpan="2" />
+        <Image Source="D:\Kuliah\Pemrograman Lanjut\FinalWeatherApp\Images\Today.png" Margin="32,124,71,168" Grid.ColumnSpan="2"/>
+        <Image Source="D:\Kuliah\Pemrograman Lanjut\FinalWeatherApp\Images\User Profile.png" Margin="10,0,259,-540" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Image Source="D:\Kuliah\Pemrograman Lanjut\FinalWeatherApp\Images\Search.png" Margin="133,0,10,442" Grid.Column="3"/>
+        <Image Source="D:\Kuliah\Pemrograman Lanjut\FinalWeatherApp\Images\Group 20.png" Margin="100,10,96,-8" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Image Source="D:\Kuliah\Pemrograman Lanjut\FinalWeatherApp\Images\Lokasi.png" Margin="264,10,224,432" Grid.Column="1" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
